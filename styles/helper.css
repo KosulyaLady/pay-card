@@ -9,17 +9,47 @@
 /* class for Icon */
 /* class for Text HW */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
     /* bg */
     --bg-decor: rgb(16, 83, 243);
+    --bg-white-middle: rgb(247, 249, 255);
+    --bg-white: rgb(255, 255, 255);
+
 
     /* color */
     --text-color-black: rgb(16, 16, 16);
+    --text-color-grey: rgb(117, 123, 138);
+    --text-color-blue: rgb(16, 83, 243);
+    --text-color-white: rgb(255, 255, 255);
+
+
+    /* fs */
+    --text-normal-fs: 14px;
+    --text-normal2-fs: 16px;
+    --text-big-fs: 40px;
+    --text-top: 64px;
+
+    /* ff */
+    --text-normal-ff: "Inter", serif;
+    --text-logo-ff: "Poppins", serif;
+
 
     /* width */
     --max-width-middle: 1100px;
     --max-width-big: 1200px;
+}
+/* Icon */
+
+.icon-boll-size {
+    width: 56px;
+    height: 56px;
+}
+
+.icon-card-size {
+    width: 11%;
+  
 }
 
 /* dispay */
@@ -30,7 +60,12 @@
     justify-content: center;
     align-items: center;
 }
-
+.f-r-c-fs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
 .f-r-b-c {
     display: flex;
     flex-direction: row;
@@ -46,10 +81,18 @@
     align-items: center;
 }
 
+.f-r-se-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
 
 /* width */
-.max-width-middle {
+.max-width-middle-content {
     max-width: var(--max-width-middle);
+    width: 96%;
 }
 
 .max-width-big {
@@ -57,14 +100,26 @@
 }
 
 
-/* Icon */
 
-.icon-boll-size {
-    width: 56px;
-    height: 56px;
-}
 
 /* Text */
 .title-section {}
+
 .text-black {}
+
 .text-grey {}
+
+
+/* size */
+
+/* zero */
+
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+

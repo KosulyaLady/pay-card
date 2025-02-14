@@ -1,0 +1,112 @@
+.header {
+    width: 100%;
+    padding: 24px 0 24px 0;
+    height: 66px;
+    background-color: green;
+}
+
+.header-wrap {
+    background: yellow;
+    gap: 30px;
+}
+
+.header-cont {
+    gap: 65px;
+}
+
+.img-logo {}
+
+.menu-cont {
+    display: flex;
+    gap: 32px;
+}
+
+.menu {
+    color: var(--text-color-grey);
+    font-family: var(--text-normal-ff);
+    font-size: var(--text-normal2-fs);
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+.menu-bg {
+    color: var(--text-color-blue);
+    font-weight: 700;
+}
+
+.header-button {}
+
+.button-header {
+
+
+    width: 126px;
+    background-color: var(--bg-decor);
+    color: var(--bg-white);
+    font-family: var(--text-normal-ff);
+    font-size: var(--text-normal2-fs);
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+
+
+    padding: 16px 32px 16px 32px;
+
+
+    border-radius: 8px;
+    border: none;
+}
+
+
+/*  lines-bank-system */
+.lines-bank-system-g {
+    padding: 56px 0 56px 0;
+    background: var(--bg-decor);
+
+}
+
+.lines-bank-system-c {}
+
+.lines-bank-system-img {}
+
+.sect-5-wrap {
+   
+}
+
+.sect-5-left {
+    width: 56%;
+    background: pink;
+    position: relative;
+}
+
+.img-lady {
+    width: 70%;
+    margin-left: 13%;  
+
+}
+
+.img-card-mass {
+    width: 38%;
+    position: absolute;
+    top: 59px;
+    left: 0;
+}
+
+.img-card-account {
+    width: 46%;
+    position: absolute;
+    right: 80px;
+    bottom: -53px;
+}
+
+
+
+
+.sect-5-right {
+    width: 44%;
+    height: 400px;
+
+    background: red;
+
+
+}
