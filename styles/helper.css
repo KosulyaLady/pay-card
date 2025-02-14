@@ -1,0 +1,70 @@
+/* get fontFamily  HW */
+/* create root  HW */
+/* 
+    create global class 
+    - display HW
+    - widthg
+*/
+
+/* class for Icon */
+/* class for Text HW */
+
+
+:root {
+    /* bg */
+    --bg-decor: rgb(16, 83, 243);
+
+    /* color */
+    --text-color-black: rgb(16, 16, 16);
+
+    /* width */
+    --max-width-middle: 1100px;
+    --max-width-big: 1200px;
+}
+
+/* dispay */
+/* flex - row wisth (center) height (center) */
+.f-r-c-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-r-b-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.f-c-c-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* width */
+.max-width-middle {
+    max-width: var(--max-width-middle);
+}
+
+.max-width-big {
+    max-width: var(--max-width-big);
+}
+
+
+/* Icon */
+
+.icon-boll-size {
+    width: 56px;
+    height: 56px;
+}
+
+/* Text */
+.title-section {}
+.text-black {}
+.text-grey {}
