@@ -168,10 +168,12 @@
     border-radius: 0;
     background-color: transparent;
     text-decoration: none;
-
+    
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 
 
