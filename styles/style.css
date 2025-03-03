@@ -676,9 +676,13 @@ width: calc(100% - 18px);
    
    
     .img-footer-bg {
-        width: 83%;
+        /* width: 83%;
         top: 156px;
-        left: -275px;
+        left: -275px; */
+        top: -31px;
+        right: 23px;
+        width: 218%;
+        min-width: 496px;
     }
     .footer-top {
     }
@@ -702,6 +706,7 @@ width: calc(100% - 18px);
     .img-footer {
     }
     .footer-parag {
+        position: relative;
     }
     .foter-text {
     }
@@ -774,12 +779,12 @@ width: calc(100% - 18px);
 
 @media screen and (max-width: 630px) {
  
-    .img-footer-bg {
+    /* .img-footer-bg {
         width: 130%;
         min-width: 494px;
         top: 228px;
         left: -50%;
-    }
+    } */
     }
 
 
