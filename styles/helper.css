@@ -32,6 +32,7 @@
     --text-normal2-fs: 16px;
     --text-middle-fs: 36px;
     --text-big-fs: 40px;
+    --text-middle-mv-fs: 48px;
     --text-top: 64px;
 
     /* ff */
@@ -108,6 +109,13 @@
     justify-content: flex-start;
     align-items: flex-start; 
 }
+.f-c-fs-fs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+
 .f-c-c-c {
     display: flex;
     flex-direction: column;

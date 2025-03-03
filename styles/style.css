@@ -269,7 +269,7 @@
 .sect-5 {
     background: var(--bg-white-middle);
     padding-top: 86px;
-    padding-bottom: 37px;
+    padding-bottom: 121px;
 }
 
 
@@ -361,6 +361,83 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: 16px;
+}
+
+
+
+
+.footer{
+    padding: 80px 0 0 0;
+    overflow: hidden;
+    background-color: var(--bg-decor);
+
+}
+.footer-wrap {
+    position: relative;
+    padding-bottom: 40px;
+
+}
+.footer-top-text {
+    color:var(--text-color-white);
+font-family: var(--text-logo-ff);
+font-size: 64px;
+font-weight: 600;
+line-height: 120%;
+margin-bottom: 60px;
+}
+.footer-top {
+    width: 97%;
+
+}
+
+.footer-middle {
+    display: flex;
+    gap: 48px;
+    margin-bottom: 177px;
+  
+}
+.fotter-middle-left-block {
+    display: flex;
+    gap: 14px;
+    width: 90%;
+    max-width: 310px;
+}
+.img-footer {
+    width: 46px;
+}
+.img-footer-bg {
+    width: 49%;
+    position: absolute;
+    bottom: -220px;
+    right: -3px;
+}
+.footer-parag {
+    color: var(--bg-white);
+font-family: var(--text-normal-ff);
+font-size: var(--text-normal2-fs);
+font-weight: 400;
+line-height: 24px;
+
+}
+.footer-parag-top-mt {
+    margin-top: 40px;  
+}
+.footer-parag-mt {
+    margin-top: 40px;
+
+}
+.footer-bootom-left {
+    margin-left: 4px;
+}
+.footer-bottom {
+ width: 100%;
+  gap: 30px;
+    border-top: 2px solid rgb(59, 140, 244);
+}
+
+.footer-bottom-police-doc {
+gap: 45px;
+margin-right: 4px;
 }
 
 
@@ -518,8 +595,7 @@
 justify-content: center;
 width: calc(100% - 18px);
     }
-    .f-r-b-c {
-    }
+  
     .box-text {
         width: 100%;
         max-width: 650px;
@@ -533,15 +609,6 @@ width: calc(100% - 18px);
        
     }
   
-
-
-
-
-
-
-
-
-
     /* sect-5 */
 
     .sect-5 {
@@ -592,6 +659,79 @@ width: calc(100% - 18px);
         transform: translateY(0);
 
     }
+
+    .footer {
+        padding: 77px 0 49px 0;
+        overflow: hidden;
+    }
+  
+    .footer-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 683px;
+    padding-bottom: 0;
+    }
+   
+   
+    .img-footer-bg {
+        width: 83%;
+        top: 156px;
+        left: -275px;
+    }
+    .footer-top {
+    }
+    .footer-top-text {
+        font-size: var(--text-middle-mv-fs);
+        margin-bottom: 63px;
+    
+    }
+   
+    .footer-middle {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        margin-bottom: 76px;
+    }
+  
+    .fotter-middle-left-block {
+    }
+    .img-footer {
+    }
+    .footer-parag {
+    }
+    .foter-text {
+    }
+    .fotter-bott-right-bloc {
+    }
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+  
+    .footer-bootom-left {
+        order: 2;
+    }
+    .footer-parag-top-mt {
+        margin-top: 0;  
+    }
+    .footer-parag-mt {
+        margin-top: 43px;
+    }
+    .footer-bottom-police-doc {
+      
+        order: 1;
+        margin-bottom: 37px;
+    }
+
+
+
+
 
 
 }
