@@ -771,3 +771,16 @@ width: calc(100% - 18px);
         border: 2px solid rgb (0, 0, 0);
     }
 }
+
+@media screen and (max-width: 630px) {
+ 
+    .img-footer-bg {
+        width: 130%;
+        min-width: 494px;
+        top: 228px;
+        left: -50%;
+    }
+    }
+
+
+
