@@ -922,7 +922,8 @@
     }
 
     .sect-6-left {
-        width: 90%;
+        width: 100%;
+        max-width: 700px;
        
     }
 
@@ -953,7 +954,7 @@ align-items: center;
 
     .sect-7-cont-left {
         width: 100%;
-      
+      max-width: 700px;
     }
 
     .sect-7-parag-left {
