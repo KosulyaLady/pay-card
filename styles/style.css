@@ -922,12 +922,12 @@
     }
 
     .sect-6-left {
-        width: 100%;
+        width: 90%;
        
     }
 
     .sect-6-right {
-        width: 100%;
+        width: 90%;
         gap: 40px;
         display: flex;
         flex-direction: column;
